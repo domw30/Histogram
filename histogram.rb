@@ -1,5 +1,6 @@
 puts "Enter words"
 text = gets.chomp
+text.downcase!
 
 words = text.split(" ")
 frequencies = Hash.new(0)
